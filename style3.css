@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #000000;
+    color: #eeff00;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    background-color: #333333;
+    padding: 1rem;
+}
+
+nav a {
+    color: #eeff00;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #eeff00;
+    color: #000000;
+    border-radius: 5px;
+}
+
+/* Main content styling */
+main {
+    padding: 2rem;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #eeff00;
+}
+
+main img {
+    border-radius: 50%;
+    border: 4px solid #eeff00;
+    margin-bottom: 1rem;
+}
+
+main p {
+    font-size: 1.1rem;
+    color: #d4d700;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Sidebar (aside) styling */
+aside {
+    background-color: #222222;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+aside h2 {
+    color: #eeff00;
+    margin-bottom: 1rem;
+}
+
+aside img {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border: 3px solid #eeff00;
+}
+
+aside p {
+    color: #d4d700;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333333;
+    color: #eeff00;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
