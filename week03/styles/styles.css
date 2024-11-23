@@ -1,0 +1,166 @@
+/* Color Palette */
+:root {
+    --primary-color: #1F2041; /* Dark blue */
+    --secondary-color: #4B3F72; /* Rich purple */
+    --accent1-color: #FFC857; /* Bright yellow */
+    --accent2-color: #119DA4; /* Teal */
+  }
+  
+  /* General Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif; /* Default font for body text */
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: var(--primary-color); /* Dark blue background */
+    color: var(--accent1-color); /* Bright yellow text */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Georgia", serif; /* Headings font */
+    font-weight: 400; /* Normal weight for all headings */
+    color: var(--accent1-color); /* Bright yellow for headings */
+  }
+  
+  p {
+    font-family: "Roboto", sans-serif; /* Body text font */
+    font-weight: 400; /* Regular weight */
+    color: var(--accent1-color); /* Bright yellow text */
+  }
+  
+  /* Header Styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color); /* Rich purple header */
+    padding: 1rem;
+  }
+  
+  header .logo {
+    font-family: "Georgia", serif;
+    font-weight: 400;
+    color: var(--accent1-color);
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 1rem;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: var(--accent1-color); /* Bright yellow text on dark header */
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: var(--accent2-color); /* Teal hover effect */
+  }
+  
+  /* Main Section */
+  .main {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--primary-color); /* Dark blue */
+    color: var(--accent1-color); /* Bright yellow text */
+  }
+  
+  .main h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .main-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .cta {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--accent2-color); /* Teal button */
+    color: var(--primary-color); /* Dark blue text */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta:hover {
+    background-color: var(--secondary-color); /* Rich purple hover effect */
+  }
+  
+  /* Features Section */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: var(--secondary-color); /* Rich purple section */
+    color: var(--accent1-color); /* Bright yellow text */
+  }
+  
+  .features .feature {
+    text-align: center;
+  }
+  
+  .features .feature img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .features .feature p {
+    margin-top: 0.5rem;
+  }
+  
+  /* Content Section */
+  .content {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--primary-color); /* Dark blue */
+  }
+  
+  .content-image img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 2rem;
+  }
+  
+  .content-text h2 {
+    margin-bottom: 1rem;
+    color: var(--accent1-color);
+  }
+  
+  .content-text p {
+    margin-bottom: 1rem;
+  }
+  
+  .content-text button {
+    padding: 0.5rem 1rem;
+    background-color: var(--accent2-color); /* Teal button */
+    color: var(--primary-color); /* Dark blue text */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .content-text button:hover {
+    background-color: var(--secondary-color); /* Rich purple hover effect */
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--secondary-color); /* Rich purple footer */
+    color: var(--accent1-color); /* Bright yellow text */
+  }
+  

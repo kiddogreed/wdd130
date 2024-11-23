@@ -1,0 +1,189 @@
+/* Color Palette */
+:root {
+  --drab-dark-brown: #505033ff;
+  --indigo-dye: #264969ff;
+  --pearl: #cfcfb4ff;
+  --columbia-blue: #b4cde4ff;
+}
+
+/* Font Utility Classes */
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif; /* Default Roboto font */
+  font-weight: 400; /* Regular weight */
+  line-height: 1.6;
+  background-color: var(--pearl); /* Light background */
+  color: var(--drab-dark-brown); /* Text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Georgia", serif; /* Headings font */
+  font-weight: 400; /* Normal heading weight by default */
+  color: var(--indigo-dye); /* Dark color for headings */
+}
+
+h1 {
+  font-weight: 900; /* Extra bold for main heading */
+}
+
+h2 {
+  font-weight: 700; /* Bold for secondary headings */
+}
+
+p {
+  font-family: "Roboto", sans-serif; /* Body text font */
+  font-weight: 400; /* Regular weight */
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--indigo-dye); /* Dark header */
+  padding: 1rem;
+}
+
+header .logo {
+  font-weight: bold;
+  color: var(--pearl);
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--pearl); /* Light text on dark header */
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: var(--columbia-blue); /* Light blue hover effect */
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--columbia-blue); /* Soft blue background */
+  color: var(--indigo-dye); /* Dark text */
+}
+
+.hero h1 {
+  margin-bottom: 1rem;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cta {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--indigo-dye); /* Indigo button */
+  color: var(--pearl); /* Light text */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta:hover {
+  background-color: var(--drab-dark-brown); /* Dark brown hover effect */
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: var(--pearl); /* Light section */
+  color: var(--drab-dark-brown); /* Dark text */
+}
+
+.features .feature {
+  text-align: center;
+}
+
+.features .feature img {
+  width: 100px;
+  height: 100px;
+}
+
+.features .feature p {
+  margin-top: 0.5rem;
+}
+
+/* Content Section */
+.content {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--columbia-blue); /* Soft blue background */
+}
+
+.content-image img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 2rem;
+}
+
+.content-text h2 {
+  margin-bottom: 1rem;
+}
+
+.content-text p {
+  margin-bottom: 1rem;
+}
+
+.content-text button {
+  padding: 0.5rem 1rem;
+  background-color: var(--indigo-dye); /* Indigo button */
+  color: var(--pearl); /* Light text */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.content-text button:hover {
+  background-color: var(--drab-dark-brown); /* Dark brown hover effect */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--indigo-dye); /* Dark footer */
+  color: var(--pearl); /* Light text */
+}
