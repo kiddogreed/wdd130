@@ -28,6 +28,14 @@ header {
     padding: 1rem;
     text-align: center;
 }
+nav {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space out items evenly */
+    align-items: center; /* Center items vertically */
+    background-color: #09bcf2; /* Dark background for contrast */
+    padding: 1rem; /* Space around the nav content */
+    color: #fff; /* White text for visibility */
+  }
 
 nav a {
     color: white;
@@ -85,7 +93,6 @@ aside {
 aside h2 {
     color: #4A90E2;
     margin-bottom: 1rem;
-    position: absolute;
     top: 47px;
     left: 150px;
 }

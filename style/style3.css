@@ -28,6 +28,16 @@ header {
     padding: 1rem;
 }
 
+nav {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space out items evenly */
+    align-items: center; /* Center items vertically */
+    background-color: #323334; /* Dark background for contrast */
+    padding: 1rem; /* Space around the nav content */
+    color: #232121; /* White text for visibility */
+  }
+
+
 nav a {
     color: #eeff00;
     text-decoration: none;
