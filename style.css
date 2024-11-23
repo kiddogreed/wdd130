@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* Class Selector */
+
+
+/* Box class */
+.box {
+    margin: 1rem; /* Space around the box */
+    padding: 1rem; /* Space inside the box */
+    border: 1px solid #333; /* Add a border */
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color */
+  }
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #4A90E2;
+    padding: 1rem;
+    text-align: center;
+}
+nav {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space out items evenly */
+    align-items: center; /* Center items vertically */
+    background-color: #09bcf2; /* Dark background for contrast */
+    padding: 1rem; /* Space around the nav content */
+    color: #fff; /* White text for visibility */
+  }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ffffff30;
+    color: #000;
+    border-radius: 5px;
+}
+
+/* Main content styling */
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+main h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #4A90E2;
+}
+
+main img {
+    border-radius: 50%;
+    border: 4px solid #4A90E2;
+    margin-bottom: 1rem;
+    float: right;
+}
+
+main p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Sidebar (aside) styling */
+aside {
+    background-color: #eef2f7;
+    padding: 2rem;
+    margin: 2rem auto;
+    text-align: center;
+    max-width: 600px;
+    border-radius: 10px;
+    width: 20em;
+
+}
+
+aside h2 {
+    color: #4A90E2;
+    margin-bottom: 1rem;
+    top: 47px;
+    left: 150px;
+}
+
+aside img {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+/* Footer styling */
+footer {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
