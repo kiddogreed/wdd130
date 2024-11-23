@@ -7,7 +7,7 @@
     <meta name="Author" content="John Russelle Domingo">
     <title>JOHN RUSSELLE DOMINGO | WDD 130</title>
      <!-- Default CSS file (light mode) -->
-     <link rel="stylesheet" id="theme-style" href="style2.css">
+     <link rel="stylesheet" id="theme-style" href="style/style2.css">
     <!-- <link rel="stylesheet" href="style2.css"> -->
    
 </head>
@@ -25,8 +25,19 @@
         <h1>JOHN RUSSELLE DOMINGO | WDD 130</h1>
         <img src="images/profile.png" alt="JOHN RUSSELLE DOMINGO"  width="200" >
         <p>Hi everyone! I'm John from the Philippines. I believe we live in a world where staying <br> updated with technology is essential, and learning is key. It's a pleasure to meet you all, <br>and I'm looking forward to growing and sharing knowledge together!</p>
+        <ul class="box">
+          <li>
+            <a href="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manila-philippines/800x500/manila-philippines-temple-lds-685730-wallpaper.jpg" alt="Manila Temple">Manila Philippines Temple</a>
+          </li>
+          <li>
+            <a href="https://www.churchofjesuschrist.org/imgs/1b2c438fbf03dce153643292f31889fcc54dd95a/full/640%2C/0/default" alt="Cebu Temple">Cebu City Philippines Temple</a>
+          </li>
+          <li>
+            <a href="https://www.churchofjesuschrist.org/imgs/46910789b4c911eeaf5feeeeac1ed77e9a30ef3f/full/640%2C/0/default" alt="Urdaneta Temple">Urdaneta Philippines Temple</a>
+          </li>
+        </ul>
       </main>
-      <aside>
+      <aside class="box">
         <h2>Bangkal Makati </h2>
         <img src="images/makati_city.png" alt="MAKATI NIGHT TIME" width="200">
         <p>
@@ -50,25 +61,26 @@
 
       // Set theme on load based on stored preference
       if (currentTheme === "dark") {
-          themeStyle.href = "style3.css";  // Dark mode CSS
+          themeStyle.href = "style/style3.css";  // Dark mode CSS
           toggleButton.textContent = "Light Mode";
       } else {
-          themeStyle.href = "style2.css";  // Light mode CSS
+          themeStyle.href = "style/style2.css";  // Light mode CSS
           toggleButton.textContent = "Dark Mode";
       }
 
       // Toggle theme on button click
       toggleButton.addEventListener("click", () => {
-          if (themeStyle.href.includes("style2.css")) {
-              themeStyle.href = "style3.css";  // Switch to dark mode
+          if (themeStyle.href.includes("style/style2.css")) {
+              themeStyle.href = "style/style3.css";  // Switch to dark mode
               toggleButton.textContent = "Light Mode";
               localStorage.setItem("theme", "dark");
           } else {
-              themeStyle.href = "style2.css";  // Switch to light mode
+              themeStyle.href = "style/style2.css";  // Switch to light mode
               toggleButton.textContent = "Dark Mode";
               localStorage.setItem("theme", "light");
           }
       });
   </script>
+  <!-- last update 11Nov2024 -->
 </body>
 </html>

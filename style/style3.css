@@ -3,7 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-}
+} 
+
+/* Box class */
+.box {
+    margin: 1rem; /* Space around the box */
+    padding: 1rem; /* Space inside the box */
+    border: 1px solid #333; /* Add a border */
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color */
+  }
 
 /* Body styling */
 body {
@@ -49,6 +58,7 @@ main img {
     border-radius: 50%;
     border: 4px solid #eeff00;
     margin-bottom: 1rem;
+    float: right;
 }
 
 main p {
@@ -65,11 +75,15 @@ aside {
     margin: 2rem auto;
     border-radius: 10px;
     max-width: 600px;
+    width: 20em;
+    text-align: center;
 }
 
 aside h2 {
     color: #eeff00;
     margin-bottom: 1rem;
+    top: 47px;
+    left: 150px;
 }
 
 aside img {
