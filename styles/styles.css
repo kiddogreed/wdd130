@@ -13,13 +13,13 @@
   }
   
   /* Header Navigation */
-  header,  footer {
+  header,  footer, .grid {
     background-color: #3467c6;
-    padding: 10px 0;
+   
     max-width: 840px;
     margin: 0 auto;
     text-align: center;
-    color: white;
+   
   }
 
   nav{
