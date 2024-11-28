@@ -6,10 +6,7 @@
     <meta name="description" content="My personal homepage describing about me living in Busy city of Makati, Metro Manila. 1729Evangelista St. BRG Bangkal Makati City 1233">
     <meta name="author" content="John Russelle Domingo">
     <title>JOHN RUSSELLE DOMINGO | WDD 130</title>
-     <!-- Default CSS file (light mode) -->
      <link rel="stylesheet" id="theme-style" href="styles/styles.css">
-    <!-- <link rel="stylesheet" href="style2.css"> -->
-   
 </head>
 
 <body>
@@ -17,70 +14,53 @@
         <nav>
           <a href="https://kiddogreed.github.io/wdd130/#">Home</a>
           <a href="https://kiddogreed.github.io/wdd130/week02/holygrail.html">Temple</a>
-          <!-- <a href="" id="toggle-theme">Dark Mode</a> -->
+          <a href="week03/index.html">Rafting Website</a>
+          <a href="week03/wireframe.html">Siteplan</a>
+          <a href="https://www.linkedin.com/in/john-russelle-domingo-918b0b1a1/">LinkedIn</a>
+          <a href="https://www.facebook.com/russelleeeeee/">Facebook</a>
         </nav>
-        
       </header>
-      <main>
-        <h1>JOHN RUSSELLE DOMINGO | WDD 130</h1>
-        <img src="images/profile.png" alt="JOHN RUSSELLE DOMINGO"  width="200" >
-        <p>Hi everyone! I'm John from the Philippines. I believe we live in a world where staying updated with technology is essential, and learning is key. It's a pleasure to meet you all,and I'm looking forward to growing and sharing knowledge together!</p>
-        <ul class="box">
-          <li>
-            <a href="images/manila_philippines_temple.webp">Manila Philippines Temple</a>
-          </li>
-          <li>
-            <a href="images/cebu_philippines_temple_sunset.webp">Cebu City Philippines Temple</a>
-          </li>
-          <li>
-            <a href="images/urdaneta_philippines_temple_exterior.webp">Urdaneta Philippines Temple</a>
-          </li>
-        </ul>
-      </main>
-      <aside class="box">
-        <h2>Bangkal Makati </h2>
-        <img src="images/makati_city.png" alt="MAKATI NIGHT TIME" width="200">
-        <p>
-          Makati is a city in Metro Manila, Philippines. It is the financial hub of the country  and <br> is known for its business-friendly environment. Makati is also home to many restaurants , <br> bars, and shopping centers. It is a popular destination for tourists and locals alike .
-        </p>
-      </aside>
+      <div class="grid">
+        <main>
+
+          <div class="grid">
+            <aside>
+              <h2>Bangkal Makati </h2>
+              <img src="images/makati_city.png" alt="MAKATI NIGHT TIME">
+              <p>
+                Makati is a city in Metro Manila, Philippines. It is the financial hub of the country and is known for its business-friendly environment. Makati is also home to many restaurants, bars, and shopping centers. It is a popular destination for tourists and locals alike. The name of Makati originates from the Tagalog word kati, meaning "[of the] low tide" or "[of the] ebb tide", attributing to the tidal movements of the adjacent Pasig River. Alternatively, the word may also mean "itchy", attributed to the lipang kalabaw plant (Dendrocnide meyeniana) that once grew in the area.
+              </p>
+            </aside>
+    
+    
+          </div>
+  
+  
+          <section>
+            <h1>JOHN RUSSELLE DOMINGO | WDD 130</h1>
+             <img src="images/profile.png" alt="JOHN RUSSELLE DOMINGO">
+             <p>Hi everyone! I'm John from the Philippines. I believe we live in a world where staying updated with technology is essential, and learning is key. I also enjoy
+              swimming, basketball, reading, and specially coding. In my Previous work I Integrate and handle external api's and manage internal data controllers. Create and Maintain API on server Side using Adonis JS frame work. Write code and tests, build prototypes, solve issues, profile and analyze bottlenecks. Design perform, robust APIs to support mobile and desktop clients. Manage and optimize scalable distributed systems on the cloud. Optimization of web applications for performance and scalability. It's a pleasure to meet you all,and I'm looking forward to growing and sharing knowledge together!</p>
+              <ul>
+                <li>
+                  <a href="images/manila_philippines_temple.webp">Manila Philippines Temple</a>
+                </li>
+                <li>
+                  <a href="images/cebu_philippines_temple_sunset.webp">Cebu City Philippines Temple</a>
+                </li>
+                <li>
+                  <a href="images/urdaneta_philippines_temple_exterior.webp">Urdaneta Philippines Temple</a>
+                </li>
+              </ul>
+          </section>
+        </main>
+
+      </div>
+     
+      
       <footer>
         <p>&copy; 😎 2024 John Russelle Domingo 🤩 | 🚩Manila 🌴Philippines</p>
       </footer>
 
-
-
-       <!-- JavaScript for Theme Toggle -->
-    <!-- <script>
-      // Get the theme-style link and toggle button
-      const themeStyle = document.getElementById("theme-style");
-      const toggleButton = document.getElementById("toggle-theme");
-
-      // Check local storage for theme preference
-      const currentTheme = localStorage.getItem("theme");
-
-      // Set theme on load based on stored preference
-      if (currentTheme === "dark") {
-          themeStyle.href = "style/style3.css";  // Dark mode CSS
-          toggleButton.textContent = "Light Mode";
-      } else {
-          themeStyle.href = "style/style2.css";  // Light mode CSS
-          toggleButton.textContent = "Dark Mode";
-      }
-
-      // Toggle theme on button click
-      toggleButton.addEventListener("click", () => {
-          if (themeStyle.href.includes("style/style2.css")) {
-              themeStyle.href = "style/style3.css";  // Switch to dark mode
-              toggleButton.textContent = "Light Mode";
-              localStorage.setItem("theme", "dark");
-          } else {
-              themeStyle.href = "style/style2.css";  // Switch to light mode
-              toggleButton.textContent = "Dark Mode";
-              localStorage.setItem("theme", "light");
-          }
-      });
-  </script> -->
-  <!-- last update 11Nov2024 -->
 </body>
 </html>
