@@ -1,42 +1,40 @@
-
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 a:link {
     color: #FF0000;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: #0040c1;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #FF00FF;
-  }
-  
-  /* selected link */
-  a:active {
-    color: #0000FF;
-  }
+}
 
+a:visited {
+    color: #0040c1;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+a:active {
+    color: #0000FF;
+}
+
+/* Body */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
+    background-color: #f3f3f3;
 }
 
 /* Header styles */
 header {
     background-color: #d5c5f5;
-    padding: 1rem;
+    padding: 1rem 2rem;
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
@@ -60,28 +58,43 @@ header nav ul li a {
     font-weight: 700;
 }
 
-/* Banner section */
+/* Banner Section */
 .banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
     background-color: #f3ebfe;
-    padding: 2rem;
+    padding: 1rem;
     gap: 1rem;
     text-align: center;
+   
 }
 
 .banner h1 {
     grid-column: 1 / -1;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 900;
     color: #5c2b9d;
+    margin-bottom: 1rem;
+  
+   
 }
 
 .banner p {
-    grid-column: 1 / -1;
+    
     font-size: 1rem;
     color: #333;
+    margin-bottom: 1.5rem;
+   
+    
+}
+
+.banner-images {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1rem;
+    z-index: 1;
+  
 }
 
 .banner img {
@@ -91,44 +104,104 @@ header nav ul li a {
     border-radius: 5px;
 }
 
-/* Section styles */
-.section {
+
+/* History Section */
+.history {
     background-color: #e0d6f9;
+    padding: 2rem;
+}
+
+.history h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #5c2b9d;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+
+.history-content p {
+    font-size: 1rem;
+    color: #333;
+    text-align: justify;
+}
+
+.history-content img {
+    max-width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    grid-column: 2 / 3;
+}
+
+/* Adventure Awaits Section */
+.adventure {
+    background-color: #f3ebfe;
     padding: 2rem;
     text-align: center;
 }
 
-.section h2 {
-    font-size: 1.8rem;
+.adventure h2 {
+    font-size: 2rem;
     font-weight: 900;
     color: #5c2b9d;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
-/* Footer styles */
+.adventure-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.adventure-item {
+    text-align: center;
+}
+
+.adventure-item img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.adventure-item p {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Footer */
 footer {
     background-color: #d5c5f5;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 footer p {
     font-size: 0.9rem;
     color: #333;
+    margin-bottom: 0.5rem;
 }
 
-footer .social-icons {
-    margin-top: 0.5rem;
+footer .social-icons nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 
-footer .social-icons  {
-    margin: 0 0.5rem;
-    color: #5c2b9d;
-    text-decoration: none;
-    font-size: 1.2rem;
-    transition: color 0.3s ease;
+footer .social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-footer .social-icons {
-    color: #333;
+footer .social-icons img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
 }
