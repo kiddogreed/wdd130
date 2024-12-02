@@ -1,94 +1,4 @@
-/* a {
-    text-decoration: none;
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-header {
-    background-color: #c9c3d5;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header img {
-    height: 50px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 0 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    padding: 10px 20px;
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    color: black;
-}
-
-nav ul li a:hover {
-    background-color: #b2a3df;
-}
-
-.banner {
-    text-align: center;
-    margin: 20px;
-}
-
-.banner h1 {
-    font-size: 2rem;
-}
-
-.banner p {
-    margin: 20px auto;
-    max-width: 600px;
-}
-
-.banner img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.section {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    text-align: center;
-}
-
-footer {
-    background-color: #c9c3d5;
-    padding: 10px;
-    text-align: center;
-}
-
-footer .social-icons img {
-    width: 30px;
-    height: 30px;
-    margin: 0 5px;
-} */
-
-
-
-
-/* General reset */
 * {
     margin: 0;
     padding: 0;
@@ -191,7 +101,7 @@ footer .social-icons {
     margin-top: 0.5rem;
 }
 
-footer .social-icons .fa {
+footer .social-icons  {
     margin: 0 0.5rem;
     color: #5c2b9d;
     text-decoration: none;
@@ -199,6 +109,6 @@ footer .social-icons .fa {
     transition: color 0.3s ease;
 }
 
-footer .social-icons .fa:hover {
+footer .social-icons {
     color: #333;
 }
