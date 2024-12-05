@@ -5,33 +5,16 @@
     box-sizing: border-box;
 }
 
-a:link {
-    color: #FF0000;
-}
-
-a:visited {
-    color: #0040c1;
-}
-
-a:hover {
-    color: #FF00FF;
-}
-
-a:active {
-    color: #0000FF;
-}
-
-/* Body */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
+    background-color: #f3f3f3;
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
-    background-color: #f3f3f3;
 }
 
-/* Header styles */
+/* Header */
 header {
     background-color: #d5c5f5;
     padding: 1rem 2rem;
@@ -45,7 +28,6 @@ header .logo img {
     max-width: 100%;
     height: auto;
 }
-
 
 header div input[type="text"] {
     padding: 0.5rem;
@@ -62,8 +44,6 @@ header div button {
     cursor: pointer;
 }
 
-
-
 header nav ul {
     list-style: none;
     display: flex;
@@ -72,37 +52,37 @@ header nav ul {
 
 header nav ul li a {
     text-decoration: none;
-    color: #333;
     font-weight: 700;
+    color: #333;
 }
 
-.main-contact{
+/* Main Content */
+main {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 1.5rem;
     padding: 2rem;
 }
 
-.main-contact > section:first-of-type{
+/* Left Section: Company Info and Contact */
+main > section:first-of-type {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-
-
-.main-contact h2, .main-contact h3 {
+main h2, main h3 {
     font-size: 1.5rem;
     color: #5c2b9d;
     margin-bottom: 0.5rem;
 }
 
-.main-contact p {
+main p {
     font-size: 1rem;
     color: #333;
 }
 
-.main-contact a {
+main a {
     color: #5c2b9d;
     text-decoration: none;
 }
@@ -113,6 +93,7 @@ header nav ul li a {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 /* Contact Form */
 form {
     display: flex;
@@ -132,140 +113,24 @@ form button {
     font-weight: bold;
     cursor: pointer;
 }
+
 /* Right Section: Image and Text */
-.main-contact > section:last-of-type {
+main > section:last-of-type {
     display: grid;
     grid-template-rows: auto auto;
     gap: 1rem;
 }
 
-.main-contact img {
+main img {
     width: 100%;
     height: auto;
     border: 2px solid #ddd;
     border-radius: 5px;
 }
 
-.main-contact div p {
+main div p {
     text-align: justify;
     font-size: 1rem;
-    color: #333;
-}
-/* Banner Section */
-.banner {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto;
-    background-color: #f3ebfe;
-    padding: 1rem;
-    gap: 1rem;
-    text-align: center;
-   
-}
-
-.banner h1 {
-    grid-column: 1 / -1;
-    font-size: 2.5rem;
-    font-weight: 900;
-    color: #5c2b9d;
-    margin-bottom: 1rem;
-  
-   
-}
-
-.banner p {
-    
-    font-size: 1rem;
-    color: #333;
-    margin-bottom: 1.5rem;
-   
-    
-}
-
-.banner-images {
-    display: grid;
-    grid-template-columns: repeat(1, 2fr);
-    gap: 1rem;
-    z-index: 1;
-  
-}
-
-.banner img {
-    width: 100%;
-    height: auto;
-    border: 2px solid #ddd;
-    border-radius: 5px;
-}
-
-
-/* History Section */
-.history {
-    background-color: #e0d6f9;
-    padding: 2rem;
-}
-
-.history h2 {
-    font-size: 2rem;
-    font-weight: 900;
-    color: #5c2b9d;
-    text-align: center;
-    margin-bottom: 1.5rem;
-}
-
-.history-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    align-items: center;
-}
-
-.history-content p {
-    font-size: 1rem;
-    color: #333;
-    text-align: justify;
-}
-
-.history-content img {
-    max-width: 100%;
-    border: 2px solid #ddd;
-    border-radius: 5px;
-    grid-column: 2 / 3;
-}
-
-/* Adventure Awaits Section */
-.adventure {
-    background-color: #f3ebfe;
-    padding: 2rem;
-    text-align: center;
-}
-
-.adventure h2 {
-    font-size: 2rem;
-    font-weight: 900;
-    color: #5c2b9d;
-    margin-bottom: 1.5rem;
-}
-
-.adventure-gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-}
-
-.adventure-item {
-    text-align: center;
-}
-
-.adventure-item img {
-    width: 100%;
-    height: auto;
-    border: 2px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 0.5rem;
-}
-
-.adventure-item p {
-    font-size: 0.9rem;
     color: #333;
 }
 
@@ -273,13 +138,12 @@ form button {
 footer {
     background-color: #d5c5f5;
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 1rem;
 }
 
 footer p {
     font-size: 0.9rem;
     color: #333;
-    
 }
 
 footer .social-icons nav {
