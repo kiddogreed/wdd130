@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* 
 a:link {
     color: #FF0000;
 }
@@ -19,6 +19,22 @@ a:hover {
 
 a:active {
     color: #0000FF;
+} */
+
+a:link {
+    color: #1F2041; /* accent2-color */
+}
+
+a:visited {
+    color: #119DA4; /* secondary-color */
+}
+
+a:hover {
+    color: #FFC857; /* accent1-color */
+}
+
+a:active {
+    color: #e3ff0f; /* primary-color */
 }
 
 /* Body */
@@ -33,7 +49,8 @@ body {
 
 /* Header styles */
 header {
-    background-color: #d5c5f5;
+    /* background-color: #d5c5f5; */
+    background-color: #4B3F72; 
     padding: 1rem 2rem;
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -55,8 +72,10 @@ header div input[type="text"] {
 
 header div button {
     padding: 0.5rem 1rem;
-    background-color: #5c2b9d;
-    color: white;
+    /* background-color: #5c2b9d;
+    color: white; */
+    background-color: #1F2041; /* primary-color */
+    color: #FFC857; /* accent1-color */
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -72,7 +91,8 @@ header nav ul {
 
 header nav ul li a {
     text-decoration: none;
-    color: #333;
+    /* color: #333; */
+    color: #FFC857; /* accent1-color */
     font-weight: 700;
 }
 
@@ -87,32 +107,31 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    color: #4B3F72; /* secondary-color */
 }
 
 
 
 .main-contact h2, .main-contact h3 {
     font-size: 1.5rem;
-    color: #5c2b9d;
+    /* color: #5c2b9d; */
+    color: #4B3F72; /* secondary-color */
     margin-bottom: 0.5rem;
 }
 
 .main-contact p {
     font-size: 1rem;
-    color: #333;
+    /* color: #333; */
+    color: #1F2041; /* primary-color */
 }
 
 .main-contact a {
-    color: #5c2b9d;
+    /* color: #5c2b9d; */
+    color: #119DA4; /* accent2-color */
     text-decoration: none;
 }
 
-.map iframe {
-    width: 100%;
-    height: 200px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
+
 /* Contact Form */
 form {
     display: flex;
@@ -127,8 +146,10 @@ form input, form button {
 }
 
 form button {
-    background-color: #5c2b9d;
-    color: white;
+    /* background-color: #5c2b9d;
+    color: white; */
+    background-color: #4B3F72; /* secondary-color */
+    color: #FFC857; /* accent1-color */
     font-weight: bold;
     cursor: pointer;
 }
@@ -149,14 +170,16 @@ form button {
 .main-contact div p {
     text-align: justify;
     font-size: 1rem;
-    color: #333;
+    /* color: #333; */
+    color: #1F2041; /* primary-color */
 }
 /* Banner Section */
 .banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
-    background-color: #f3ebfe;
+    /* background-color: #f3ebfe; */
+    background-color: #1F2041; /* primary-color */
     padding: 1rem;
     gap: 1rem;
     text-align: center;
@@ -167,8 +190,9 @@ form button {
     grid-column: 1 / -1;
     font-size: 2.5rem;
     font-weight: 900;
-    color: #5c2b9d;
+    /* color: #5c2b9d; */
     margin-bottom: 1rem;
+    color: #FFC857; /* accent1-color */
   
    
 }
@@ -176,12 +200,15 @@ form button {
 .banner p {
     
     font-size: 1rem;
-    color: #333;
+    /* color: #333; */
+    color: #FFC857; /* accent1-color */
     margin-bottom: 1.5rem;
    
     
 }
-
+figcaption{
+    color: #FFC857; /* accent1-color */
+}
 .banner-images {
     display: grid;
     grid-template-columns: repeat(1, 2fr);
@@ -200,14 +227,16 @@ form button {
 
 /* History Section */
 .history {
-    background-color: #e0d6f9;
+    /* background-color: #e0d6f9; */
+    background-color: #4B3F72; /* secondary-color */
     padding: 2rem;
 }
 
 .history h2 {
     font-size: 2rem;
     font-weight: 900;
-    color: #5c2b9d;
+    /* color: #5c2b9d; */
+    color: #FFC857; /* accent1-color */
     text-align: center;
     margin-bottom: 1.5rem;
 }
@@ -221,7 +250,8 @@ form button {
 
 .history-content p {
     font-size: 1rem;
-    color: #333;
+    /* color: #333; */
+    color: #FFC857; /* accent1-color */
     text-align: justify;
 }
 
@@ -271,14 +301,16 @@ form button {
 
 /* Footer */
 footer {
-    background-color: #d5c5f5;
+    /* background-color: #d5c5f5; */
+    background-color: #1F2041; /* primary-color */
     text-align: center;
     padding: 1rem 2rem;
 }
 
 footer p {
     font-size: 0.9rem;
-    color: #333;
+    /* color: #333; */
+    color: #FFC857; /* accent1-color */
     
 }
 
