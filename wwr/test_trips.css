@@ -1,0 +1,170 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+}
+
+/* Header styles */
+header {
+    background-color: #4B3F72; /* secondary color */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    color: #FFC857; /* accent color */
+    font-weight: bold;
+}
+
+header .search-bar {
+    display: flex;
+    gap: 0.5rem;
+}
+
+header .search-bar input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header .search-bar button {
+    padding: 0.5rem 1rem;
+    background-color: #1F2041; /* primary color */
+    color: #FFC857; /* accent color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #FFC857; /* accent color */
+    font-weight: bold;
+}
+
+/* Hero Section */
+.herotrips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: #1F2041; /* primary color */
+    color: #FFC857; /* accent color */
+}
+
+.hero .hero-image {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #f3f3f3;
+}
+
+.features .feature {
+    width: 45%;
+    text-align: center;
+    background-color: #4B3F72; /* secondary color */
+    color: #FFC857; /* accent color */
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.features .feature .feature-image {
+    width: 100%;
+    height: 150px;
+    background-color: #ccc;
+    margin-bottom: 1rem;
+}
+
+/* Additional Info Section */
+.additional-info {
+    padding: 2rem;
+    text-align: center;
+    background-color: #1F2041; /* primary color */
+    color: #FFC857; /* accent color */
+}
+
+.additional-info .additional-image {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+    margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: #4B3F72; /* secondary color */
+    color: #FFC857; /* accent color */
+}
+
+footer .helpful-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .helpful-links ul li a {
+    text-decoration: none;
+    color: #FFC857; /* accent color */
+}
+
+footer .next-step {
+    text-align: center;
+}
+
+footer .subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+footer .subscribe input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer .subscribe button {
+    padding: 0.5rem 1rem;
+    background-color: #1F2041; /* primary color */
+    color: #FFC857; /* accent color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
